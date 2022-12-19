@@ -9,7 +9,9 @@ if height >= 120:
 
     age = int(input("How old are you? "))
 
-    if age >= 18:
+    if age >= 45 and age <= 55:
+        pass
+    elif age >= 18:
         bill = 12
     elif age >= 12:
         bill = 7
