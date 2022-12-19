@@ -9,8 +9,10 @@ if height >= 120:
 
     if age >= 18:
         print("12$ Ticket")
-    else:
+    elif age >= 12:
         print("7$ Ticket")
+    else:
+        print("5$ Ticket")
 
 else:
     print("Can't ride")
