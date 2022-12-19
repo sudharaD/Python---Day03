@@ -13,9 +13,9 @@ while True:
         str_percentage = first_number + second_number
         int_percentage = int(str_percentage)
 
-        if int_percentage < 10 or int_percentage > 90:
+        if (int_percentage < 10) or (int_percentage > 90):
             print(f"Your score is {int_percentage}, you go together like coke and mentos.")
-        elif int_percentage <= 40 and int_percentage <= 50:
+        elif (int_percentage <= 40) and (int_percentage <= 50):
             print(f"Your score is {int_percentage}, you are alright together.")
         else:
             print(f"Your score is {int_percentage}") 
