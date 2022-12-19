@@ -19,9 +19,9 @@ if height >= 120:
     wants_photo = input("Do you want a photo taken, Y or N. ")
 
     if wants_photo == "Y":
-        print(f"Pay {bill + 3}$")
-    else:
-        print(f"Pay {bill}$")
+        bill += 3
+    
+    print(f"Pay {bill}$")
 
 else:
     print("Can't ride")
