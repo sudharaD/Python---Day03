@@ -12,7 +12,7 @@ while True:
         else:
             print(f"{year} not a leap year.")
         
-        break1989
+        break
 
     except:
         print("Enter valid year")
