@@ -10,15 +10,14 @@ while True:
         first_number = str(combined_name.count("t") + combined_name.count("r") + combined_name.count("u") + combined_name.count("e"))
         second_number = str(combined_name.count("l") + combined_name.count("o") + combined_name.count("v") + combined_name.count("e"))
 
-        str_percentage = first_number + second_number
-        int_percentage = int(str_percentage)
+        love_percentage = int(first_number + second_number)
 
-        if (int_percentage < 10) or (int_percentage > 90):
-            print(f"Your score is {int_percentage}, you go together like coke and mentos.")
-        elif (int_percentage <= 40) and (int_percentage <= 50):
-            print(f"Your score is {int_percentage}, you are alright together.")
+        if (love_percentage < 10) or (love_percentage > 90):
+            print(f"Your score is {love_percentage}, you go together like coke and mentos.")
+        elif (love_percentage >= 40) and (love_percentage <= 50):
+            print(f"Your score is {love_percentage}, you are alright together.")
         else:
-            print(f"Your score is {int_percentage}") 
+            print(f"Your score is {love_percentage}") 
 
         break
 
