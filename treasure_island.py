@@ -20,7 +20,7 @@ while True:
   try:
 
     # \ can forgot what the character after it
-    answer_1 = input("\"left\" or \"wright\"? ")
+    answer_1 = input("\"left\" or \"right\"? ")
 
     if answer_1 != "left":
       print("Fail into a hole. Game over")
