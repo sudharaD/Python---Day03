@@ -32,13 +32,13 @@ while True:
 
     answer_3 = input("Which door? blue, red, yellow or another color ")
 
-    if answer_3 != "red":
+    if answer_3 == "red":
       print("Burned by fire. Game over.")
       break
-    elif answer_3 != "blue":
+    elif answer_3 == "blue":
       print("Eaten by beasts. Game Over.")
       break
-    elif answer_3 != "yellow":
+    elif answer_3 == "yellow":
       print("You Win!")
       break
 
