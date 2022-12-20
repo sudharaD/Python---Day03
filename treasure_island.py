@@ -18,7 +18,9 @@ print("Your mission is to find the treasure")
 
 while True:
   try:
-    answer_1 = input("left or wright? ")
+
+    # \ can forgot what the character after it
+    answer_1 = input("\"left\" or \"wright\"? ")
 
     if answer_1 != "left":
       print("Fail into a hole. Game over")
